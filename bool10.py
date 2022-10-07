@@ -6,4 +6,7 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    x=pow(a,1/2)
+    return int(x)**2 == a
+
+print(main(16))
